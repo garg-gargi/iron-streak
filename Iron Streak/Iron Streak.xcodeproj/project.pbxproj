@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		61B736ED2E6A9F0800BF1973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B736D72E6A9F0600BF1973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B736DE2E6A9F0600BF1973;
+			remoteInfo = "Iron Streak";
+		};
+		61B736F72E6A9F0800BF1973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B736D72E6A9F0600BF1973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B736DE2E6A9F0600BF1973;
+			remoteInfo = "Iron Streak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61B736DF2E6A9F0600BF1973 /* Iron Streak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iron Streak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B736EC2E6A9F0800BF1973 /* Iron StreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iron StreakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B736F62E6A9F0800BF1973 /* Iron StreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iron StreakUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61B736E12E6A9F0600BF1973 /* Iron Streak */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Iron Streak";
+			sourceTree = "<group>";
+		};
+		61B736EF2E6A9F0800BF1973 /* Iron StreakTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Iron StreakTests";
+			sourceTree = "<group>";
+		};
+		61B736F92E6A9F0800BF1973 /* Iron StreakUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Iron StreakUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B736DC2E6A9F0600BF1973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B736E92E6A9F0800BF1973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B736F32E6A9F0800BF1973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B736D62E6A9F0600BF1973 = {
+			isa = PBXGroup;
+			children = (
+				61B736E12E6A9F0600BF1973 /* Iron Streak */,
+				61B736EF2E6A9F0800BF1973 /* Iron StreakTests */,
+				61B736F92E6A9F0800BF1973 /* Iron StreakUITests */,
+				61B736E02E6A9F0600BF1973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B736E02E6A9F0600BF1973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B736DF2E6A9F0600BF1973 /* Iron Streak.app */,
+				61B736EC2E6A9F0800BF1973 /* Iron StreakTests.xctest */,
+				61B736F62E6A9F0800BF1973 /* Iron StreakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B736DE2E6A9F0600BF1973 /* Iron Streak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B737002E6A9F0800BF1973 /* Build configuration list for PBXNativeTarget "Iron Streak" */;
+			buildPhases = (
+				61B736DB2E6A9F0600BF1973 /* Sources */,
+				61B736DC2E6A9F0600BF1973 /* Frameworks */,
+				61B736DD2E6A9F0600BF1973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				61B736E12E6A9F0600BF1973 /* Iron Streak */,
+			);
+			name = "Iron Streak";
+			packageProductDependencies = (
+			);
+			productName = "Iron Streak";
+			productReference = 61B736DF2E6A9F0600BF1973 /* Iron Streak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B736EB2E6A9F0800BF1973 /* Iron StreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B737032E6A9F0800BF1973 /* Build configuration list for PBXNativeTarget "Iron StreakTests" */;
+			buildPhases = (
+				61B736E82E6A9F0800BF1973 /* Sources */,
+				61B736E92E6A9F0800BF1973 /* Frameworks */,
+				61B736EA2E6A9F0800BF1973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B736EE2E6A9F0800BF1973 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61B736EF2E6A9F0800BF1973 /* Iron StreakTests */,
+			);
+			name = "Iron StreakTests";
+			packageProductDependencies = (
+			);
+			productName = "Iron StreakTests";
+			productReference = 61B736EC2E6A9F0800BF1973 /* Iron StreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61B736F52E6A9F0800BF1973 /* Iron StreakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B737062E6A9F0800BF1973 /* Build configuration list for PBXNativeTarget "Iron StreakUITests" */;
+			buildPhases = (
+				61B736F22E6A9F0800BF1973 /* Sources */,
+				61B736F32E6A9F0800BF1973 /* Frameworks */,
+				61B736F42E6A9F0800BF1973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B736F82E6A9F0800BF1973 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61B736F92E6A9F0800BF1973 /* Iron StreakUITests */,
+			);
+			name = "Iron StreakUITests";
+			packageProductDependencies = (
+			);
+			productName = "Iron StreakUITests";
+			productReference = 61B736F62E6A9F0800BF1973 /* Iron StreakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B736D72E6A9F0600BF1973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					61B736DE2E6A9F0600BF1973 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					61B736EB2E6A9F0800BF1973 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 61B736DE2E6A9F0600BF1973;
+					};
+					61B736F52E6A9F0800BF1973 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 61B736DE2E6A9F0600BF1973;
+					};
+				};
+			};
+			buildConfigurationList = 61B736DA2E6A9F0600BF1973 /* Build configuration list for PBXProject "Iron Streak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B736D62E6A9F0600BF1973;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 61B736E02E6A9F0600BF1973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B736DE2E6A9F0600BF1973 /* Iron Streak */,
+				61B736EB2E6A9F0800BF1973 /* Iron StreakTests */,
+				61B736F52E6A9F0800BF1973 /* Iron StreakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B736DD2E6A9F0600BF1973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B736EA2E6A9F0800BF1973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B736F42E6A9F0800BF1973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B736DB2E6A9F0600BF1973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B736E82E6A9F0800BF1973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B736F22E6A9F0800BF1973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B736EE2E6A9F0800BF1973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B736DE2E6A9F0600BF1973 /* Iron Streak */;
+			targetProxy = 61B736ED2E6A9F0800BF1973 /* PBXContainerItemProxy */;
+		};
+		61B736F82E6A9F0800BF1973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B736DE2E6A9F0600BF1973 /* Iron Streak */;
+			targetProxy = 61B736F72E6A9F0800BF1973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61B736FE2E6A9F0800BF1973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61B736FF2E6A9F0800BF1973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B737012E6A9F0800BF1973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gargigarg.Iron-Streak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61B737022E6A9F0800BF1973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gargigarg.Iron-Streak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61B737042E6A9F0800BF1973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gargigarg.Iron-StreakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iron Streak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Iron Streak";
+			};
+			name = Debug;
+		};
+		61B737052E6A9F0800BF1973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gargigarg.Iron-StreakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iron Streak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Iron Streak";
+			};
+			name = Release;
+		};
+		61B737072E6A9F0800BF1973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gargigarg.Iron-StreakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Iron Streak";
+			};
+			name = Debug;
+		};
+		61B737082E6A9F0800BF1973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B84N7G297Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gargigarg.Iron-StreakUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Iron Streak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B736DA2E6A9F0600BF1973 /* Build configuration list for PBXProject "Iron Streak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B736FE2E6A9F0800BF1973 /* Debug */,
+				61B736FF2E6A9F0800BF1973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B737002E6A9F0800BF1973 /* Build configuration list for PBXNativeTarget "Iron Streak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B737012E6A9F0800BF1973 /* Debug */,
+				61B737022E6A9F0800BF1973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B737032E6A9F0800BF1973 /* Build configuration list for PBXNativeTarget "Iron StreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B737042E6A9F0800BF1973 /* Debug */,
+				61B737052E6A9F0800BF1973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B737062E6A9F0800BF1973 /* Build configuration list for PBXNativeTarget "Iron StreakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B737072E6A9F0800BF1973 /* Debug */,
+				61B737082E6A9F0800BF1973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B736D72E6A9F0600BF1973 /* Project object */;
+}
